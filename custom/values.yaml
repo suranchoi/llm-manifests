@@ -5,7 +5,7 @@ servingEngineSpec:
     repository: "vllm/vllm-openai"
     tag: "latest"
 
-    modelURL: "google/gemma-3-270m-it"
+    modelURL: "openai-community/gpt2"
     replicaCount: 1
 
     requestCPU: 4
