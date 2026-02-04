@@ -18,6 +18,7 @@ servingEngineSpec:
 
     pvcAccessMode:
       - ReadWriteOnce
+    pvcStorage: "20Gi"
 
     vllmConfig:
       maxModelLen: 1024
